@@ -1,0 +1,176 @@
+﻿@model TODO.Models.TaskListViewModel
+
+@{
+    ViewData["Title"] = "Task List";
+}
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .complete-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .complete-button:hover {
+            background-color: #45a049;
+        }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #666;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        margin-top: 10px;
+    }
+</style>
+
+<h1>Task List</h1>
+
+<div class="container">
+    <form asp-action="Index" method="post">
+        <label for="storageMode">Storage Mode:</label>
+        <select id="storageMode" name="StorageMode" class="form-control" onchange="this.form.submit()">
+            <option value="Database" selected="@(Model.StorageMode == "Database")">Database</option>
+            <option value="XML" selected="@(Model.StorageMode == "XML")">XML</option>
+        </select>
+    </form>
+</div>
+
+<div class="container">
+    <h2>Create Task</h2>
+    <form asp-action="Create" method="post">
+        <div>
+            <label asp-for="NewTask.TaskName" class="form-label"></label>
+            <input asp-for="NewTask.TaskName" class="form-control" placeholder="Task Name" />
+            <span asp-validation-for="NewTask.TaskName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="NewTask.Deadline" class="form-label"></label>
+            <input asp-for="NewTask.Deadline" class="form-control" type="date" placeholder="Deadline" />
+            <span asp-validation-for="NewTask.Deadline" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="NewTask.CategoryId" class="form-label"></label>
+            <select asp-for="NewTask.CategoryId" class="form-control" asp-items="@(ViewBag.CategoryId as SelectList)">
+                <option value="">Select Category</option>
+            </select>
+            <span asp-validation-for="NewTask.CategoryId" class="text-danger"></span>
+            <input asp-for="NewTask.Completed" type="hidden" name="Completed" value="false" />
+        </div>
+        <div>
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+        <input type="hidden" name="StorageMode" value="@Model.StorageMode" />
+    </form>
+</div>
+
+<div class="container">
+    @foreach (var group in Model.TaskList.GroupBy(task => task.CategoryId))
+    {
+        var categoryName = group.First().Category?.CategoryName;
+        <h2>@categoryName</h2>
+        <table class="task-table">
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Deadline</th>
+                    <th>Completed?</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in group.Where(task => !task.Completed))
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.TaskName)</td>
+                        <td>@item.Deadline?.ToString("dd.MM.yyyy")</td>
+                        <td>
+                            @if (!item.Completed)
+                            {
+                                <form asp-action="MarkAsCompleted" method="post">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <input type="hidden" name="StorageMode" value="@Model.StorageMode" />
+                                    <button type="submit" class="complete-button">Mark as Completed</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <text>Completed</text>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <h2>Completed</h2>
+    <table class="task-table">
+        <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Deadline</th>
+                <th>Completed?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TaskList.Where(task => task.Completed))
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.TaskName)</td>
+                    <td>@item.Deadline?.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        @if (!item.Completed)
+                        {
+                            <form asp-action="MarkAsCompleted" method="post">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <input type="hidden" name="StorageMode" value="@Model.StorageMode" />
+                                <button type="submit" class="btn btn-success">Mark as Completed</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <text>Completed</text>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

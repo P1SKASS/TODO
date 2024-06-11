@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+  <Categories>
+    <Category>
+      <Id>1</Id>
+      <CategoryName>Something</CategoryName>
+    </Category>
+    <Category>
+      <Id>2</Id>
+      <CategoryName>School</CategoryName>
+    </Category>
+    <Category>
+      <Id>3</Id>
+      <CategoryName>Training</CategoryName>
+    </Category>
+    <Category>
+      <Id>4</Id>
+      <CategoryName>Self-development</CategoryName>
+    </Category>
+    <Category>
+      <Id>5</Id>
+      <CategoryName>Home</CategoryName>
+    </Category>
+  </Categories>
+  <Tasks>
+    <Task>
+      <Id>0</Id>
+      <TaskName>123</TaskName>
+      <Deadline />
+      <CategoryId>2</CategoryId>
+      <Completed>true</Completed>
+    </Task>
+    <Task>
+      <Id>1</Id>
+      <TaskName>Something</TaskName>
+      <Deadline />
+      <CategoryId>3</CategoryId>
+      <Completed>true</Completed>
+    </Task>
+    <Task>
+      <Id>2</Id>
+      <TaskName>help</TaskName>
+      <Deadline />
+      <CategoryId>5</CategoryId>
+      <Completed>false</Completed>
+    </Task>
+  </Tasks>
+</Tasks>

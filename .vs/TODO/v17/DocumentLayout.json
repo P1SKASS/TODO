@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program\\Sana\\TODO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\views\\taskforlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\views\\taskforlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\models\\xmlstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\models\\xmlstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\controllers\\taskforlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\controllers\\taskforlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XmlStorageService.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Models\\XmlStorageService.cs",
+              "RelativeDocumentMoniker": "TODO\\Models\\XmlStorageService.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Models\\XmlStorageService.cs",
+              "RelativeToolTip": "TODO\\Models\\XmlStorageService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwC0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:39:41.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Views\\TaskForLists\\Index.cshtml",
+              "RelativeDocumentMoniker": "TODO\\Views\\TaskForLists\\Index.cshtml",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Views\\TaskForLists\\Index.cshtml",
+              "RelativeToolTip": "TODO\\Views\\TaskForLists\\Index.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAkwLAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:36:00.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskForListsController.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Controllers\\TaskForListsController.cs",
+              "RelativeDocumentMoniker": "TODO\\Controllers\\TaskForListsController.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Controllers\\TaskForListsController.cs",
+              "RelativeToolTip": "TODO\\Controllers\\TaskForListsController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAkwHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:28:53.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
