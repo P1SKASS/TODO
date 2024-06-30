@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "vDvBFBzb/sE=",
+  "dgSpecHash": "Fbpa+5HSQKY=",
   "success": true,
   "projectFilePath": "C:\\Program\\Sana\\TODO\\TODO\\TODO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P1SKAS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\P1SKAS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql\\7.8.0\\graphql.7.8.0.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql-parser\\8.4.2\\graphql-parser.8.4.2.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.analyzers\\7.8.0\\graphql.analyzers.7.8.0.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.microsoftdi\\7.6.0\\graphql.microsoftdi.7.6.0.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.server\\1.7.0.1\\graphql.server.1.7.0.1.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.server.transports.aspnetcore\\7.7.1\\graphql.server.transports.aspnetcore.7.7.1.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.server.ui.playground\\7.7.1\\graphql.server.ui.playground.7.7.1.nupkg.sha512",
+    "C:\\Users\\P1SKAS\\.nuget\\packages\\graphql.systemtextjson\\7.8.0\\graphql.systemtextjson.7.8.0.nupkg.sha512",
     "C:\\Users\\P1SKAS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\P1SKAS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\P1SKAS\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -173,5 +181,16 @@
     "C:\\Users\\P1SKAS\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\P1SKAS\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GraphQL.Server 1.7.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "GraphQL.Server",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

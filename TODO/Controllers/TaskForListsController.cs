@@ -64,7 +64,7 @@ namespace TODO.Controllers
                 if (model.StorageMode == "XML")
                 {
                     var tasks = _xmlStorageService.LoadTasks();
-                    newTask.Id = tasks.Any() ? tasks.Max(t => t.Id) + 1 : 1; // Генерация нового Id
+                    newTask.Id = tasks.Any() ? tasks.Max(t => t.Id) + 1 : 1;
                     tasks.Add(newTask);
                     _xmlStorageService.SaveTasks(tasks);
                 }

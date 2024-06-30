@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Program\\Sana\\TODO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\views\\taskforlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\views\\taskforlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\models\\xmlstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\models\\xmlstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\graphql\\todomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\graphql\\todomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\controllers\\taskforlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\controllers\\taskforlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\graphql\\graphqlschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\graphql\\graphqlschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\graphql\\todoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\graphql\\todoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\graphql\\todotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\graphql\\todotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|c:\\program\\sana\\todo\\todo\\models\\taskforlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD4FA7C-84C7-4ACD-ABDC-073C92C97AFE}|TODO\\TODO.csproj|solutionrelative:todo\\models\\taskforlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "XmlStorageService.cs",
-              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Models\\XmlStorageService.cs",
-              "RelativeDocumentMoniker": "TODO\\Models\\XmlStorageService.cs",
-              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Models\\XmlStorageService.cs",
-              "RelativeToolTip": "TODO\\Models\\XmlStorageService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAYwC0AAAAsAAAA",
+              "DocumentIndex": 5,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TODO\\Services\\ITaskService.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Services\\ITaskService.cs",
+              "RelativeToolTip": "TODO\\Services\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:39:41.225Z"
+              "WhenOpened": "2024-06-16T13:36:31.427Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Views\\TaskForLists\\Index.cshtml",
-              "RelativeDocumentMoniker": "TODO\\Views\\TaskForLists\\Index.cshtml",
-              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Views\\TaskForLists\\Index.cshtml",
-              "RelativeToolTip": "TODO\\Views\\TaskForLists\\Index.cshtml",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAkwLAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T15:36:00.549Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TODO\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Services\\TaskService.cs",
+              "RelativeToolTip": "TODO\\Services\\TaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:37:00.516Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoMutation.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoMutation.cs",
+              "RelativeDocumentMoniker": "TODO\\GraphQL\\TodoMutation.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoMutation.cs",
+              "RelativeToolTip": "TODO\\GraphQL\\TodoMutation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:28:19.524Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaskForListsController.cs",
-              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Controllers\\TaskForListsController.cs",
-              "RelativeDocumentMoniker": "TODO\\Controllers\\TaskForListsController.cs",
-              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Controllers\\TaskForListsController.cs",
-              "RelativeToolTip": "TODO\\Controllers\\TaskForListsController.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAkwHcAAAAAAAAA",
+              "Title": "GraphQLSchema.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\GraphQLSchema.cs",
+              "RelativeDocumentMoniker": "TODO\\GraphQL\\GraphQLSchema.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\GraphQLSchema.cs",
+              "RelativeToolTip": "TODO\\GraphQL\\GraphQLSchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:28:53.504Z"
+              "WhenOpened": "2024-06-30T12:41:00.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Program.cs",
+              "RelativeDocumentMoniker": "TODO\\Program.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Program.cs",
+              "RelativeToolTip": "TODO\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:39:17.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoQuery.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoQuery.cs",
+              "RelativeDocumentMoniker": "TODO\\GraphQL\\TodoQuery.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoQuery.cs",
+              "RelativeToolTip": "TODO\\GraphQL\\TodoQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:35:39.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoType.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoType.cs",
+              "RelativeDocumentMoniker": "TODO\\GraphQL\\TodoType.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\GraphQL\\TodoType.cs",
+              "RelativeToolTip": "TODO\\GraphQL\\TodoType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:35:05.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskForList.cs",
+              "DocumentMoniker": "C:\\Program\\Sana\\TODO\\TODO\\Models\\TaskForList.cs",
+              "RelativeDocumentMoniker": "TODO\\Models\\TaskForList.cs",
+              "ToolTip": "C:\\Program\\Sana\\TODO\\TODO\\Models\\TaskForList.cs",
+              "RelativeToolTip": "TODO\\Models\\TaskForList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:52:36.57Z"
             }
           ]
         }
